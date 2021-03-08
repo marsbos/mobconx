@@ -1,0 +1,24 @@
+{
+  "name": "mobconx",
+  "version": "1.0.0",
+  "description": "Create redux-like connected mobx stores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mobx",
+    "redux",
+    "state"
+  ],
+  "author": "Marcel Bos",
+  "license": "ISC",
+  "dependencies": {
+    "mobx": "^5.15.7",
+    "ramda": "^0.27.1"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
