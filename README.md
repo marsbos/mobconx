@@ -1,4 +1,5 @@
 # mobconx
+Mobx stores like Redux
 
 ## Motivation
 
