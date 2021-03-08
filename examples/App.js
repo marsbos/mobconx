@@ -1,8 +1,9 @@
 import React from "react";
+import { connect } from "mobconx";
 import { ExampleComponent } from "./ExampleComponent";
 import { RootStore } from "./root.store";
 import { mapDispatchToProps, mapStateToProps } from "./state";
-import { Provider } from 'mobx-react'
+import { Provider } from "mobx-react";
 
 // The root store
 const rootStore = new RootStore();
